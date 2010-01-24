@@ -8,8 +8,9 @@ WriteMakefile1(
          repository => 'http://github.com/gisle/data-dump',
       },
    },
-   #BUILD_REQUIRES => {
-   #},
+   BUILD_REQUIRES => {
+      'Test' => 0,
+   },
 
    NAME         => "Data::Dump",
    VERSION_FROM => "lib/Data/Dump.pm",
